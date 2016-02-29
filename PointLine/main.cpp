@@ -1,9 +1,6 @@
 //
 //  main.cpp
-//  PointLine
-//
-//  Created by Rich Kim on 2/28/16.
-//  Copyright © 2016 Rich Kim. All rights reserved.
+//  Assignment: PointLine
 //
 
 #include <iostream>
@@ -12,8 +9,7 @@ using namespace std;
 #include "point.h"
 
 // input function
-void getUserInput1(double &x1, double &y1);
-void getUserInput2(double &x2, double &y2);
+void getPointInput(double &x, double &y);
 
 int main() {
     char ans;
@@ -22,12 +18,12 @@ int main() {
     do
     {
         cout << "Enter Point 1 (x, y): ";
-        getUserInput1(x1, y1);
+        getPointInput(x1, y1);
         // 1st point object
         Point obj_point1(x1, y1);
         
         cout << "Enter Point 2 (x, y): ";
-        getUserInput2(x2, y2);
+        getPointInput(x2, y2);
         // 2nd point object
         Point obj_point2(x2, y2);
         
@@ -45,11 +41,7 @@ int main() {
     return 0;
 }
 
-// function: get user choices key stroke
-void getUserInput1(double &x1, double &y1) {
-    cin >> x1 >> y1;
-}
-
-void getUserInput2(double &x2, double &y2) {
-    cin >> x2 >> y2;
+// function: get user point 1 input
+void getPointInput(double &x, double &y) {
+    cin >> x >> y;
 }

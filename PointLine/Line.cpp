@@ -1,9 +1,6 @@
 //
 //  Line.cpp
-//  PointLine
-//
-//  Created by Rich Kim on 2/28/16.
-//  Copyright © 2016 Rich Kim. All rights reserved.
+//  Assignment: PointLine
 //
 
 #include <iostream>
@@ -12,7 +9,7 @@ using namespace std;
 #include "Line.h"
 #include "Point.h"
 
-// default constructor
+// default constructor empty constructor
 Line::Line()
 {
     

@@ -1,9 +1,6 @@
 //
 //  Point.cpp
-//  PointLine
-//
-//  Created by Rich Kim on 2/28/16.
-//  Copyright © 2016 Rich Kim. All rights reserved.
+//  Assignment: PointLine
 //
 
 #include <iostream>
@@ -22,7 +19,7 @@ Point::Point(double x_new, double y_new) {
     y_cord = y_new;
 }
 
-// mutator function
+// set function
 void Point::SetX(double x)
 {
     x_cord = x;

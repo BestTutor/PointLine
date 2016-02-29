@@ -1,9 +1,6 @@
 //
 //  Point.h
-//  PointLine
-//
-//  Created by Rich Kim on 2/28/16.
-//  Copyright © 2016 Rich Kim. All rights reserved.
+//  Assignment: PointLine
 //
 
 #ifndef Point_h
